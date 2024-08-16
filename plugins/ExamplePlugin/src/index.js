@@ -1,7 +1,7 @@
 // You can put anything you want in the body of your plugin code.
 import confetti from "canvas-confetti";
 
-console.log("Hello world!")
+console.log("Hello world! Test")
 confetti()
 
 // This is where you would typically put cleanup code.
