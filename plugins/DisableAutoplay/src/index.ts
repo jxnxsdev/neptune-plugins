@@ -11,7 +11,8 @@ function onTransition([track]: any[]) {
   prevSong = id;
 
   if (!autoplay) {
-    actions.playbackControls.stop();
+    actions.playbackControls.pause();
+    actions.playbackControls.timeUpdate(0);
   }
 }
 
