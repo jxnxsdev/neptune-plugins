@@ -1,8 +1,19 @@
+import { actions, store, intercept } from "@neptune";
 
-init();
+
+const onLyricsLoaded = intercept(
+  "content/LOAD_ITEM_LYRICS",
+  ([lyrics]) => {
+		console.log(lyrics)
+	}
+)
+
+/*init();
 
 async function init() {
   console.log("initialising Lyrics Everywhere...");
+
+  store.getState().
   
   setInterval(async () => {
     const spans = document.querySelectorAll('span[data-current="true"]');
@@ -13,7 +24,7 @@ async function init() {
       textContainer[0].innerHTML = spans[0].innerHTML;
     }
   }, 300)
-}
+}*/
 
 
 export function onUnload() {
