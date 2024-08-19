@@ -10,7 +10,9 @@ function onTransition([track]: any[]) {
   if (prevSong === id) return;
   prevSong = id;
 
-  if (!autoplay) actions.playbackControls.pause();
+  if (!autoplay) {
+    actions.playbackControls.stop();
+  }
 }
 
 const unloadTransition = intercept(
