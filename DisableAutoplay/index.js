@@ -1,1 +1,1 @@
-import{intercept as i,actions as a}from"@neptune";var e=!1,n;function r([t]){let o=t.mediaProduct?.productId;o&&n!==o&&(n=o,e||a.playbackControls.pause())}var s=i("playbackControls/MEDIA_PRODUCT_TRANSITION",r);function d(){console.log("Goodbye world!")}export{d as onUnload};
+import{intercept as i,actions as a}from"@neptune";var e=!1,n;function r([t]){let o=t.mediaProduct?.productId;o&&n!==o&&(n=o,e||a.playbackControls.stop())}var s=i("playbackControls/MEDIA_PRODUCT_TRANSITION",r);function d(){console.log("Goodbye world!")}export{d as onUnload};
