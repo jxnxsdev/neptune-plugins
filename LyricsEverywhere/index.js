@@ -1,1 +1,1 @@
-o();async function o(){console.log("initialising Lyrics Everywhere..."),setInterval(async()=>{let n=document.querySelectorAll('span[data-current="true"]'),e=document.querySelectorAll(".wave-text-capital-demi");console.log(n),console.log(e),n.length>0&&e.length>0&&(e[0].innerHTML=n[0].innerHTML)},300)}function t(){console.log("Goodbye world!")}export{t as onUnload};
+import{intercept as n}from"@neptune";var r=n("content/LOAD_ITEM_LYRICS",([o])=>{console.log(o)});function l(){console.log("Goodbye world!")}export{l as onUnload};
