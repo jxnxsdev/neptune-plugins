@@ -1,0 +1,1 @@
+t();async function t(){console.log("initialising Lyrics Everywhere..."),setInterval(async()=>{let n=document.querySelectorAll('span[data-current="true"]'),e=document.querySelectorAll(".wave-text-capital-demi");n.length>0&&e.length>0&&(e[0].innerHTML=n[0].innerHTML)},300)}function o(){console.log("Goodbye world!")}export{o as onUnload};
