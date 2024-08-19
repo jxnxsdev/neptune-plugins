@@ -1,0 +1,4 @@
+[submodule "plugins/_lib"]
+	path = plugins/_lib
+	url = https://github.com/Inrixia/neptune-plugins.git
+	branch = master

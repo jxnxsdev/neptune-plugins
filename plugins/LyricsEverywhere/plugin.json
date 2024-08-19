@@ -1,0 +1,6 @@
+{
+  "name": "LyricsEverwhere",
+  "description": "Displays Song Lyrics Everywhere",
+  "author": "jxnxsdev",
+  "main": "./src/index.js"
+}
