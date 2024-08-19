@@ -5,7 +5,7 @@ async function init() {
   console.log("initialising Lyrics Everywhere...");
   
   const spans = document.querySelectorAll('span[data-current="true"]');
-    const textContainer = document.querySelectorAll('.artist-link');
+    const textContainer = document.querySelectorAll('.playingFrom--bKSHq');
     console.log(spans)
     console.log(textContainer)
     if (spans.length > 0 && textContainer.length > 0) {
